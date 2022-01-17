@@ -1,0 +1,270 @@
+* { 
+    margin: 0 auto;
+}
+body { 
+    margin: 0 ;
+    background-color: rgb(139, 8, 34);
+    font-family: sans-serif;
+}
+
+.wrap {
+    font-size: 0.70rem;
+}
+
+p {
+    font-size: 0.65rem;
+    line-height: 1.54;
+}
+
+span {
+    color: rgba(201, 201, 5, 0.582)
+}
+/* HEAD - CONTENT */
+
+.head-content { 
+    background-color: black;
+    box-shadow: 0 5px 0 rgb(0, 0, 65);
+    text-align: center;
+}
+
+.head-content h3 { 
+    color: white;
+    padding: 20px 0 20px;
+    display: inline;
+    font-size: 0.70rem;
+
+    font-family: 'Sacramento', cursive;
+
+}
+
+.site-title:hover { 
+    color: rgb(255, 255, 255);
+    text-decoration: underline rgb(255, 0, 0);
+}
+
+.head-content:hover { 
+
+    text-decoration: underline;
+    
+
+}
+
+.youtube-figure { 
+    display: inline;
+    width: 15px;
+    padding-left: 5px;
+}
+
+.youtube-figure:hover { 
+    opacity: 60%;
+}
+
+/*  MAIN CONTENT */
+
+.main-container { 
+    margin: 10px auto 0;
+    background-color: crimson;
+    text-align: center;
+}
+
+.about-me img { 
+    width: 80px;
+    padding-top: 10px;
+
+    border: 1px rgb(0, 0, 0) solid;
+    border-radius: 100%;
+    box-shadow: 5px 0 0 rgb(0, 0, 65);
+}
+.about-me h3 { 
+    color: white;
+    padding-top: 5px;
+}
+
+.about-me-text {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 30%;
+}
+
+.about-me-divider {
+
+    border-style: none;
+    border-top: dotted 1px;
+    border-width: 5px;
+    border-style: ;
+    width: 15%;
+}
+
+.spider-images {
+    margin-bottom: 10px;
+}
+
+#spider-image-one {
+    width: 50px;
+    box-shadow: none;
+    border: none;
+    padding: 0;
+
+}
+
+/* DO CONTAINER */
+
+.lang-pt-en {
+    position: absolute;
+    top: 250px;
+}
+
+.languages:hover {
+    opacity: 60%;
+    border: 1px solid rgb(134, 5, 255);
+}
+
+th {
+    padding: 3px;
+}
+
+
+.do-container { 
+    margin-top: 5px;
+    color: white;
+    background-color: rgb(0, 0, 65);
+}
+
+.my-do-container {
+    width: 75%;
+    background-color: rgb(0, 0, 36);
+    height: 100%;
+
+    box-shadow: 10px 8px 5px rgb(134, 5, 255);
+}
+
+.why-u-should {
+    background-image: linear-gradient(to left, rgb(134, 1, 1), rgb(5, 5, 129));
+    margin-bottom: 10px;
+}
+
+.do-container h3 {
+    padding: 10px 0 10px;
+    text-align: center;
+   
+}
+.do-container h3:hover {
+    cursor: pointer;
+}
+
+#miranha-mask-off { 
+    width: 80px;
+    padding: 10px 10px 0 10px;
+    float: left
+}
+
+.text-one h3 {
+    color: rgb(134, 5, 255);
+    text-align: left;
+}
+
+.text-one p {
+    padding: 0 5px;
+}
+
+.text-one hr { 
+    width: 10%;
+    border-style: none;
+    border-top: solid 1px rgb(134, 5, 255);
+
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#tom-holland {
+    width: 80px;
+    padding: 10px 10px 0 10px;
+    float: left;
+}
+
+.text-two{
+    margin-bottom: 10px;
+}
+
+.text-two h3 { 
+    color: rgb(5, 72, 255) ;
+    text-align: left;
+}
+.text-two p {
+    padding: 0 5px;
+}
+
+.text-two hr {
+    width: 10%;
+    border-style: none;
+    border-top: solid 1px rgb(134, 5, 255);
+
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+/* MY WORKS */
+
+.my-works { 
+    margin-top: 30px;
+    background-image: linear-gradient(to left, rgb(134, 1, 1), rgb(5, 5, 129));
+
+
+}
+
+.spider-video { 
+    margin: 10px auto 0;
+    padding-bottom: 0;
+    width: 80%;
+    height: 150px;
+
+    box-shadow: 8px 8px 3px rgb(43, 5, 255);
+
+}
+
+/* CONTACT */
+
+.my-contact { 
+
+    margin-top: 15px;
+    background-image: linear-gradient(to left, rgb(134, 1, 1), rgb(5, 5, 129));
+
+}
+
+.btn { 
+    background-image: linear-gradient(to right, rgb(134, 1, 1), rgb(5, 5, 129));
+    border-radius: 28px;
+    width: 25%;
+
+    margin-top: 20px;
+}
+
+.btn:hover {
+    background-image: linear-gradient(to left, rgb(134, 1, 1), rgb(5, 5, 129));
+}
+
+a { 
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: rgb(0, 0, 0);
+}
+
+/* FOOTER */
+
+footer {
+    background-color: black;
+}
+
+.footer {
+    width: 75%;
+}
+
+footer h3 {
+    color: rgb(156, 156, 156);
+    padding: 10px 0;
+    font-size: 0.55rem;
+    text-align: left;
+    padding-left: 10px;
+}
